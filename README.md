@@ -98,3 +98,24 @@ where Sleep_Hours_Per_Day < 5
 and Social_Hours_Per_Day > 5
 and Physical_Activity_Hours_Per_Day < 1 
 and Stress_Level = 'High';
+
+**10. Which Student have healthy or unhealthy fifestyle patterns based on sleep,screeb time, and physical activity?**
+select
+Student_ID,    
+case
+when Sleep_Hours_Per_Day < 5 then 'Poor Sleep'
+else 'Healthy Sleep'
+end as Sleep_Status,
+case
+when Social_Hours_Per_Day > 5 then 'High Screen Time'
+else 'Controlled Screen Time'
+end as  Screen_Time_Status,
+case
+when Physical_Activity_Hours_Per_Day < 1 then 'Low Activity'
+else 'Active'
+end as Activity_Status,
+Stress_Level,
+GPA
+
+FROM student_lifestyle_dataset;
+
