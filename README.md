@@ -119,3 +119,10 @@ GPA
 
 FROM student_lifestyle_dataset;
 
+**Key Insights**
+- Students with balanced sleep and study hours tend to perform better academically.
+- Higher screen time is associated with increased stress levels.
+- Students involved in regular physical activity generally show better focus and performance.
+- Poor attendance often leads to lower academic scores.
+- Excessive social media usage negatively impacts productivity.
+- Healthy lifestyle habits contribute to improved student well-being and academic success.
